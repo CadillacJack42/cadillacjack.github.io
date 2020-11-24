@@ -553,6 +553,157 @@ footer{
     font-style: italic;
 }
 
+@media only screen and (max-width:361px){
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: .3fr .4fr 1fr 1.2fr 1.2fr 1.2fr .4fr;
+        grid-template-areas: 
+        "nav"
+        "main"
+        "sidebar"
+        "content1"
+        "content2"
+        "content3"
+        "footer";
+        height: 100%;
+        /* width: 100vw; */
+    }
+
+    main {
+        grid-area: main;
+        position: relative;
+        background-image: url(media/heart_russell_big.jpg);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-style: italic;
+        color: aliceblue;
+        width: 344px;
+        right: 5px
+    }
+
+    #search-btn {
+        /* border-style: none; */
+        /* position: relative; */
+        /* margin: 2px; */
+        /* right: 5px; */
+        /* top: 4px; */
+        /* bottom: auto; */
+    }
+
+    .search-bar {
+        position: relative;
+        align-self: center;
+        border-radius: 5px;
+        border-style: none;
+        height: 12px;
+        width: 114px;
+        right: 250px;
+        top: 37px;
+    }
+
+    h1.greeting {
+        font-size: 17px;
+        position: relative;
+        top: -2px;
+        width: 200px;
+        right: 80px;
+    }
+
+    .btn {
+        height: 10px;
+        align-self: center;
+        font-size: 5px;
+        position: relative;
+        top: 16px;
+        right: -63px;
+    }
+
+    .cadillac {
+        font-size: 19px;
+        top: -9px;
+        height: 61px;
+    }
+
+    .jack {
+        font-size: 20px;
+        top: -28px;
+        right: 21px;
+        height: 61px;
+    }
+
+    .logo {
+        position: relative;
+        right: 15px;
+        top: -15px;
+        /* width: 9px; */
+    }
+
+    .outro {
+        color: aliceblue;
+        font-family: cursive;
+        font-size: 10px;
+        font-style: italic;
+        width: 330px;
+    }
+
+    footer {
+        text-align: center;
+        grid-area: footer;
+        position: relative;
+        height: 150px;
+    }
+
+    content3 {
+        text-align: center;
+        margin: 0px;
+        position: relative;
+        grid-area: content3;
+        width: 344px;
+        right: 5px;
+        /*top: -330px;*/
+        top: auto;
+        height: 148px;
+    }
+
+    content2 {
+        text-align: center;
+        margin: 0px;
+        position: relative;
+        grid-area: content2;
+        width: 344px;
+        right: 5px;
+        height: 148px;
+        /*top: -168px;*/
+    }
+
+    content1 {
+        /* margin: auto; */
+        position: relative;
+        text-align: center;
+        grid-area: content1;
+        width: 344px;
+        right: 5px;
+        margin: 0px;
+        height: 148px;
+    }
+
+    sidebar {
+        display: flex;
+        font-size: 8px;
+        flex-direction: column;
+        width: 330px;
+    }
+
+    .nav-section {
+        display: flex;
+        align-self: center;
+        padding: 10px;
+    }
+
+
+}
+
 @media only screen and (max-width:650px){
     .container{
         grid-template-columns: 1fr;
@@ -595,163 +746,4 @@ footer{
         top: 0px;
         height: 61px;
     }
-}
-
-@media only screen and (max-width:361px){
-    .container{
-        grid-template-columns: 1fr;
-        grid-template-rows: .3fr .4fr 1fr 1.2fr 1.2fr 1.2fr .4fr;
-        grid-template-areas: 
-        "nav"
-        "main"
-        "sidebar"
-        "content1"
-        "content2"
-        "content3"
-        "footer";
-        height: 100%;
-        /* width: 100vw; */
-    }
-
-    main {
-        grid-area: main;
-        background-image: url(media/heart_russell_big.jpg);
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        font-style: italic;
-        color: aliceblue;
-        width: 154px;
-    }
-
-    #search-btn {
-        border-style: none;
-        position: relative;
-        margin: 2px;
-        right: -76px;
-        top: -14px;
-    }
-
-    .search-bar {
-        align-self: center;
-        border-radius: 5px;
-        border-style: none;
-        height: 12px;
-        width: 114px;
-    }
-
-    .greeting {
-        font-size: 9px;
-        position: relative;
-        top: 5px;
-        /* padding-right: 10px; */
-        width: 81px;
-        right: 80px;
-    }
-
-    .btn {
-        height: 10px;
-        align-self: center;
-        font-size: 5px;
-        position: relative;
-        top: -3px;
-        right: -5px;
-    }
-
-    .cadillac {
-        font-size: 19px;
-        top: -9px;
-        height: 61px;
-    }
-
-    .jack {
-        font-size: 20px;
-        top: -28px;
-        right: 21px;
-        height: 61px;
-    }
-
-    .logo {
-        position: relative;
-        right: 15px;
-        top: -15px;
-        /* width: 9px; */
-    }
-
-    .outro {
-        color: aliceblue;
-        font-family: cursive;
-        font-size: 14px;
-        font-style: italic;
-        width: 161px;
-    }
-
-    footer {
-        text-align: center;
-        grid-area: footer;
-        position: relative;
-        top: -523px;
-        height: 150px;
-        font-size: 30px;
-    }
-
-    content3 {
-        text-align: center;
-        margin: 0px;
-        position: relative;
-        grid-area: content3;
-        width: 152px;
-        right: -4px;
-        top: -330px;
-        height: 148px;
-    }
-
-    content2 {
-        text-align: center;
-        margin: 0px;
-        position: relative;
-        grid-area: content2;
-        width: 152px;
-        right: -4px;
-        height: 148px;
-        top: -168px;
-    }
-
-    content1 {
-        /* margin: auto; */
-        position: relative;
-        text-align: center;
-        grid-area: content1;
-        width: 152px;
-        right: -4px;
-        margin: 0px;
-        height: 148px;
-    }
-
-    sidebar {
-        display: flex;
-        font-size: 8px;
-        flex-direction: column;
-        width: 160px;
-    }
-
-    main {
-        grid-area: main;
-        background-image: url(media/heart_russell_big.jpg);
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        font-style: italic;
-        color: aliceblue;
-        width: 154px;
-    }
-
-    .nav-section {
-        display: flex;
-        /* flex-direction: column; */
-        align-self: center;
-        padding: 10px;
-    }
-
-
 }

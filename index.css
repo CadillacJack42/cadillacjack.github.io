@@ -552,3 +552,47 @@ footer{
     font-size: 25px;
     font-style: italic;
 }
+
+@media only screen and (max-width:650px){
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: .3fr .4fr 1fr 1.2fr 1.2fr 1.2fr .4fr;
+        grid-template-areas: 
+        "nav"
+        "main"
+        "sidebar"
+        "content1"
+        "content2"
+        "content3"
+        "footer";
+        height: 100%;
+    }
+
+    sidebar{
+        display: flex;
+    }
+
+    .greeting{
+        font-size: 9px;
+        position: relative;
+        top: 15px;
+        padding-right: 10px;
+    }
+
+    .btn{
+        height: 20px;
+        align-self: center;
+    }
+
+    .cadillac{
+        font-size: 32px;
+        top: -9px;
+        height: 61px;
+    }
+
+    .jack{
+        font-size: 30px;
+        top: 0px;
+        height: 61px;
+    }
+}

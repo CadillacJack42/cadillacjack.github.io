@@ -583,12 +583,12 @@ footer{
     }
 
     #search-btn {
-        /* border-style: none; */
-        /* position: relative; */
-        /* margin: 2px; */
-        /* right: 5px; */
-        /* top: 4px; */
-        /* bottom: auto; */
+        border-style: none;
+        position: relative;    
+        margin: 2px;   
+        right: 5px;    
+        top: 4px;  
+        bottom: auto;
     }
 
     .search-bar {

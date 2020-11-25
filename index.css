@@ -9,7 +9,7 @@
 .container{
     background-color: rgb(18, 37, 185);
     display: grid;
-    height: 100vh;
+    height: fit-content;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: .2fr 1.5fr 1.2fr .8fr;
     grid-template-areas: 
@@ -116,6 +116,7 @@ nav{
     height: 50px;
     border-radius: 10px;
     border: transparent;
+    margin: 2px;
 }
 
 sidebar{
@@ -502,6 +503,7 @@ footer{
     transition: ease-in;
     overflow: hidden;
     width: 55px !important;
+    height: fit-content;
     text-align: right;
 
 }

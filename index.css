@@ -610,13 +610,9 @@ footer{
     main {
         grid-area: main;
         position: relative;
-        background-image: url(media/heart_russell_big.jpg);
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        font-style: italic;
-        color: aliceblue;
+        
         width: 100%;
+        padding-bottom: 10px;
     }
 
 

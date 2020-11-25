@@ -635,6 +635,7 @@ footer{
         top: -25px;
         right: 21px;
         height: 70px;
+        overflow: visible;
     }
 
     .logo {
@@ -702,7 +703,7 @@ footer{
         width: 330px;
     }
 
-    .nav-section {
+    section.nav-section {
         display: flex;
         align-self: center;
         padding: 10px;

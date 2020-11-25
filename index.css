@@ -579,7 +579,8 @@ footer{
         font-style: italic;
         color: aliceblue;
         width: 344px;
-        right: 5px
+        right: 5px;
+        height: 130px;
     }
 
     #search-btn {

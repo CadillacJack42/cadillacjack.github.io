@@ -664,7 +664,7 @@ footer{
         right: 5px;
         /*top: -330px;*/
         top: auto;
-        height: 200px;
+        height: 250px;
     }
 
     content2 {
@@ -674,7 +674,7 @@ footer{
         grid-area: content2;
         width: 344px;
         right: 5px;
-        height: 200px;
+        height: 250px;
         /*top: -168px;*/
     }
 
@@ -686,7 +686,7 @@ footer{
         width: 344px;
         right: 5px;
         margin: 0px;
-        height: 200px;
+        height: 250px;
     }
 
     sidebar {

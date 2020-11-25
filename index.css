@@ -612,7 +612,6 @@ footer{
         position: relative;
         width: 100%;
         padding-top: 10px;
-        padding-bottom: 10px;
     }
 
 
@@ -643,7 +642,7 @@ footer{
         top: -25px;
         right: 21px;
         height: 70px;
-        overflow: visible;
+        padding-bottom: 10px;
     }
 
     .logo {

@@ -586,8 +586,8 @@ footer{
         border-style: none;
         position: relative;    
         margin: 2px;   
-        right: 5px;    
-        top: 4px;  
+        right: 240px;    
+        top: 37px;  
         bottom: auto;
     }
 
@@ -626,8 +626,8 @@ footer{
     }
 
     .jack {
-        font-size: 20px;
-        top: -28px;
+        font-size: 19px;
+        top: -25px;
         right: 21px;
         height: 70px;
     }
@@ -652,6 +652,7 @@ footer{
         grid-area: footer;
         position: relative;
         height: 150px;
+        margin-top: 20px;
     }
 
     content3 {
@@ -663,7 +664,7 @@ footer{
         right: 5px;
         /*top: -330px;*/
         top: auto;
-        height: 155px;
+        height: 200px;
     }
 
     content2 {
@@ -673,7 +674,7 @@ footer{
         grid-area: content2;
         width: 344px;
         right: 5px;
-        height: 155px;
+        height: 200px;
         /*top: -168px;*/
     }
 
@@ -685,7 +686,7 @@ footer{
         width: 344px;
         right: 5px;
         margin: 0px;
-        height: 155px;
+        height: 200px;
     }
 
     sidebar {

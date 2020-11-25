@@ -629,7 +629,7 @@ footer{
         font-size: 20px;
         top: -28px;
         right: 21px;
-        height: 61px;
+        height: 70px;
     }
 
     .logo {
@@ -663,7 +663,7 @@ footer{
         right: 5px;
         /*top: -330px;*/
         top: auto;
-        height: 148px;
+        height: 155px;
     }
 
     content2 {
@@ -673,7 +673,7 @@ footer{
         grid-area: content2;
         width: 344px;
         right: 5px;
-        height: 148px;
+        height: 155px;
         /*top: -168px;*/
     }
 
@@ -685,7 +685,7 @@ footer{
         width: 344px;
         right: 5px;
         margin: 0px;
-        height: 148px;
+        height: 155px;
     }
 
     sidebar {

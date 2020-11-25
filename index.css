@@ -29,6 +29,7 @@ main{
     justify-content: flex-end;
     font-style: italic;
     color: aliceblue;
+    overflow: hidden;
     
 }
 
@@ -258,7 +259,6 @@ footer{
     opacity: 0;
     animation-fill-mode: forwards;
     transition: ease-in;
-    overflow: hidden;
 
 }
 
@@ -292,7 +292,6 @@ footer{
     opacity: 0;
     animation-fill-mode: forwards;
     transition: ease-in;
-    overflow: hidden;
     
 }
 
@@ -322,7 +321,7 @@ footer{
     opacity: 0;
     animation-fill-mode: forwards;
     transition: ease-in;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 
@@ -352,7 +351,6 @@ footer{
     opacity: 0;
     animation-fill-mode: forwards;
     transition: ease-in;
-    overflow: hidden;
     
 }
 
@@ -382,7 +380,7 @@ footer{
     opacity: 0;
     animation-fill-mode: forwards;
     transition: ease-in;
-    overflow: hidden;
+    /* overflow: hidden; */
     
 }
 
@@ -412,7 +410,7 @@ footer{
     opacity: 0;
     animation-fill-mode: forwards;
     transition: ease-in;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 
@@ -442,7 +440,6 @@ footer{
     opacity: 0;
     animation-fill-mode: forwards;
     transition: ease-in;
-    overflow: hidden;
 
 }
 
@@ -472,7 +469,6 @@ footer{
     opacity: 0;
     animation-fill-mode: forwards;
     transition: ease-in;
-    overflow: hidden;
 
 }
 
@@ -501,7 +497,7 @@ footer{
     opacity: 0;
     animation-fill-mode: forwards;
     transition: ease-in;
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 55px !important;
     height: fit-content;
     text-align: right;
@@ -517,7 +513,6 @@ footer{
     opacity: 0;
     animation-fill-mode: forwards;
     transition: ease-in;
-    overflow: hidden;
 
 
 }
@@ -531,7 +526,6 @@ footer{
     opacity: 0;
     animation-fill-mode: forwards;
     transition: ease-in;
-    overflow: hidden;
 
 }
 
@@ -544,7 +538,6 @@ footer{
     opacity: 0;
     animation-fill-mode: forwards;
     transition: ease-in;
-    overflow: hidden;
 
 }
 

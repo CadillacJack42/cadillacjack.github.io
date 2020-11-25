@@ -321,8 +321,6 @@ footer{
     opacity: 0;
     animation-fill-mode: forwards;
     transition: ease-in;
-    /* overflow: hidden; */
-
 }
 
 @keyframes letter3{
@@ -606,6 +604,7 @@ footer{
         grid-area: main;
         position: relative;
         width: 100%;
+        height: fit-content;
         padding-top: 10px;
     }
 

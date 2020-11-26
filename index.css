@@ -24,12 +24,11 @@
 main{
     grid-area: main;
     background-image: url(media/heart_russell_big.jpg);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     font-style: italic;
     color: aliceblue;
     overflow: hidden;
+    align-self: center;
+    height: 100%;
     
 }
 
@@ -44,7 +43,7 @@ main h1{
     flex-direction: row;
     justify-content: center;
     font-size: 50px;
-    top: -45px;
+    top: 18%;
     height: 92px;
 
 }
@@ -56,15 +55,14 @@ main h1{
     flex-direction: row;
     justify-content: center;
     font-size: 50px;
-    top: -59px;
-    height: 100px;
+    top: 18%;
 }
 
 nav{
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
     text-align: center;
     grid-area: nav;
 }
@@ -72,31 +70,25 @@ nav{
 .nav-section{
     display: flex;
     flex-direction: row;
+    align-items: center;
     align-self: center;
     padding: 10px;
 }
 
 .logo{
-    width: 61px;
+    width: 62px;
 }
 
 .cad-pic{
-    width: 53px;
+    width: 60px;
 }
 
 .greeting{
     color: aliceblue;
     font-family: fantasy;
     margin: 0px;
-    font-size: 35px;
-    height: 80px;
-    padding-right: 34px;
-}
-
-.search-section{
-    display: flex;
-    flex-direction: row;
-    align-self: center;
+    height: auto;
+    justify-self: baseline;
 }
 
 .search-bar{
@@ -114,7 +106,7 @@ nav{
 
 .btn{
     background-color: white;
-    height: 50px;
+    height: 32px;
     border-radius: 10px;
     border: transparent;
     margin: 2px;

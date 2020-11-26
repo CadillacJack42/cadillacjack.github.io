@@ -579,42 +579,53 @@ footer{
     }
     
     .nav-section {
-        display: flex;
-        position: relative;
-        align-self: center;
-        width: 100%;
-        top: 10px;
+        display: contents;
     }
 
     .search-section{
         position: relative;
-        top: -62px;
-        right: -98px;
+        right: 233%;
     }
 
     main {
         grid-area: main;
         position: relative;
-        width: 100%;
+        width: 97%;
         height: fit-content;
         padding-top: 10px;
     }
 
 
     h1.greeting {
-        box-sizing: content-box;
-        height: auto;
-        font-size: 17px;
-        width: 100%;
-        top: -75px;
+        position: relative;
+        width: 100vw;
+        top: -110%;
+        left: -8%;
     }
 
     .btn {
-        height: 10px;
-        align-self: center;
+        width: fit-content;
+        height: 13px !important;
         font-size: 8px;
-        position: relative;
         margin: 2px;
+    }
+
+    #home-btn{
+        position: relative;
+        top: 27%;
+        right: -18%;
+    }
+
+    #link-btn{
+        position: relative;
+        top: -72%;
+        right: -384%;
+    }
+
+    #pic-btn{
+        position: relative;
+        left: -158%;
+        top: 29%;
     }
 
     .cadillac {
@@ -633,6 +644,11 @@ footer{
 
     .logo {
         position: relative;
+        width: fit-content;
+    }
+
+    .cad-pic{
+        width: 100%;
     }
 
     .outro {
@@ -658,7 +674,6 @@ footer{
         position: relative;
         grid-area: content3;
         width: 100%;
-        /* top: auto; */
         height: 250px;
     }
 
@@ -713,7 +728,6 @@ footer{
     .greeting{
         font-size: 9px;
         position: relative;
-        top: 15px;
         padding-right: 10px;
     }
 

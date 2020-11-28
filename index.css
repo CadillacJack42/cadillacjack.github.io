@@ -590,7 +590,7 @@ footer{
     main {
         grid-area: main;
         position: relative;
-        width: 97%;
+        width: 100%;
         height: fit-content;
         padding-top: 10px;
     }

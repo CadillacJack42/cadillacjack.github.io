@@ -613,7 +613,7 @@ footer{
     #home-btn{
         position: relative;
         top: 27%;
-        right: 25%;
+        right: -25%;
     }
 
     .dropdown{

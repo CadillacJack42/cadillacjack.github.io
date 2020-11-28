@@ -613,14 +613,20 @@ footer{
     #home-btn{
         position: relative;
         top: 27%;
-        right: -18%;
+        right: 25%;
     }
 
-    #link-btn{
+    .dropdown{
+        position: relative;
+        top: -74%;
+        left: 502%;
+    }
+
+    /* #link-btn{
         position: relative;
         top: -72%;
         right: -384%;
-    }
+    } */
 
     #pic-btn{
         position: relative;

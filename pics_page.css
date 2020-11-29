@@ -1,0 +1,47 @@
+.container{
+    /* width: 100vw; */
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    grid-template-rows: repeat(5 1fr);
+    grid-template-areas: 
+    "row1 row1 row1 row1"
+    "row2 row2 row2 row2"
+    "row3 row3 row3 row3"
+    "row4 row4 row4 row4"
+    "row5 row5 row5 row5";
+}
+
+.row1{
+    border: 3px solid black;
+    grid-area: row1;
+    width: 100%;
+}
+
+.row2{
+    border: 3px solid black;
+    grid-area: row2;
+    width: 100%;
+}
+
+.row3{
+    border: 3px solid black;
+    grid-area: row3;
+    position: relative;
+    width: 100%;
+}
+
+.row4{
+    border: 3px solid black;
+    grid-area: row4;
+    position: relative;
+    width: 100%;
+}
+
+.row5{
+    border: 3px solid black;
+    grid-area: row5;
+    position: relative;
+    width: 100%;
+}
+
